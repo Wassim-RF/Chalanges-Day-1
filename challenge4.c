@@ -4,7 +4,7 @@ int main() {
     int kparh ;
     float mpars ;
 
-    printf("Entrer une vitesse par k/m : ");
+    printf("Entrer une vitesse par km/h : ");
     scanf("%d" , &kparh);
     mpars = kparh * 0.27778;
 
