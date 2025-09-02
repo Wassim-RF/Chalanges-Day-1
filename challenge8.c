@@ -13,7 +13,6 @@ int main() {
     printf("Entre le troixsieme nombre : ");
     scanf("%d" , &num3);
     mult = num1 * num2 * num3 ;
-    racine3 = cbrt(mult);
-    printf("Racine troisieme de (%d * %d * %d) = %.2f" , num1 , num2 , num3 , racine3);
+    racine3 = cbrt(mult);    printf("Racine troisieme de (%d * %d * %d) = %.2f" , num1 , num2 , num3 , racine3);
     return 0;
 }
